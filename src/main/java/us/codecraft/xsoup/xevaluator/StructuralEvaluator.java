@@ -4,10 +4,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Evaluator;
 
 /**
- * Base structural evaluator.
- * Copy from {@link org.jsoup.select.StructuralEvaluator} because it is package visible
- *
- * @see org.jsoup.select.StructuralEvaluator
+
  */
 abstract class StructuralEvaluator extends Evaluator {
     Evaluator evaluator;

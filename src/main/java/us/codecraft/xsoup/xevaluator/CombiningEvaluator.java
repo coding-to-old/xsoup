@@ -1,8 +1,8 @@
 package us.codecraft.xsoup.xevaluator;
 
-import org.jsoup.helper.StringUtil;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Evaluator;
+import us.codecraft.xsoup.w3c.StringUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,11 +10,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Base combining (and, or) evaluator.
- *
- * Copy from {@link org.jsoup.select.CombiningEvaluator} because it is package visible
- *
- * @see org.jsoup.select.CombiningEvaluator
+
  */
 abstract class CombiningEvaluator extends Evaluator {
     final List<Evaluator> evaluators;
